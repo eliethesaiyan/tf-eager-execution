@@ -1,4 +1,4 @@
-''' This programs implements a simple multi-layer(2) perceptron
+''' This programs implements a simple Convolutional neural network 
     and fetch minist dataset using a dataloader class to feed to the model
     and performs a simple evaluation(accuracy) on testing dataset
 '''
