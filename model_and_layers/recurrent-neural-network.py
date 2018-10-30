@@ -62,7 +62,7 @@ data_loader = DataLoader()
 num_batches = 1000
 batch_size = 50
 learning_rate = 0.001
-seq_length = 40
+seq_length = 100
 model = RNN(len(data_loader.chars))
 optimizer = tf.train.AdamOptimizer(learning_rate = learning_rate)
 for batch_index in range(num_batches):
